@@ -31,4 +31,4 @@ RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz 
 
 WORKDIR /home/ark/steam/ark/ShooterGame/Binaries/Linux
 
-CMD ./ShooterGameServer TheIsland?listen?SessionName=hihouhou_server?ServerPassword=${ARK_SESSION_PASSWORD}?ServerAdminPassword=${ARK_ADMIN_PASSWORD}?Port=${ARK_PORT}?QueryPort=${ARK_QUERY_PORT} -server -log -epiconly
+CMD ./ShooterGameServer TheIsland?listen?SessionName=hihouhou_server?ServerPassword=${ARK_SESSION_PASSWORD}?ServerAdminPassword=${ARK_ADMIN_PASSWORD}?Port=${ARK_PORT}?QueryPort=${ARK_QUERY_PORT} -server -log -crossplay
